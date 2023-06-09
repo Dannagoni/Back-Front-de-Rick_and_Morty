@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 30px;
+    margin-bottom: 20px; 
+}
+.container2{
+    position: absolute;
+    background-color: rgba(162, 0, 255, 0.503);
+    right: 1px;
+    width: 2000px;
+    height: 35px;
+    top:55px;
+}
+.order{
+    position: absolute;
+    top:5px;
+    right: 310px;
+    height: 25px;
+    border-radius: 100px;
+    border-color: rgb(138, 255, 249);
+    background-color: rgb(138, 255, 249);
+    font-size: 20px;
+}
+
+.filter{
+    position: absolute;
+    top:5px;
+    right: 120px;
+    height: 25px;
+    border-radius: 100px;
+    border-color: rgb(138, 255, 249);
+    background-color: rgb(138, 255, 249);
+    font-size: 20px;
+}

@@ -1,0 +1,47 @@
+.botonAbout{
+    position: absolute;
+    top: 15px;
+    right: 380px;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 100px;
+    background-color: rgb(107, 243, 100);
+    border-color: rgb(107, 243, 100);
+    
+}
+
+.botonHome{
+    position: absolute;
+    top: 15px;
+    right: 250px;
+    width: 100px;
+    height: 30px;
+    border-radius: 100px;
+    background-color:rgb(107, 243, 100);
+    border-color: rgb(107, 243, 100);
+    font-size: 18px;
+    Text-decoration: none;
+    
+}
+
+.botonFavorites{
+    position: absolute;
+    top: 15px;
+    right: 90px;
+    width: 130px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: rgb(107, 243, 100);
+    border-color: rgb(107, 243, 100);
+    font-size: 18px;
+    Text-decoration: none;
+}
+
+.botonlink{
+    Text-decoration: none;;
+    background-color: rgb(107, 243, 100);
+    border-color: rgb(107, 243, 100);
+    color:black;
+}
+

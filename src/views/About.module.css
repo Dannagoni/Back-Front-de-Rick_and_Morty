@@ -1,0 +1,128 @@
+.containerAbout{
+    position: relative;
+    width: 1700px;
+    height: 550px;
+    margin: 200px auto 0;
+    margin-top: 240px;
+    background-color: #000000cb;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #ff9e77;
+    border-color: #ff9e77;
+    border-style:groove;
+    font-size: 95%;
+    font-style:oblique;
+    color:aliceblue;
+    
+}
+
+.containerAbout2{
+    position: absolute;
+    padding: 1mm;
+    border-radius: 150px 0px 150px 0px;
+    background-color: rgb(0, 0, 0);
+    height: 280px;
+    width: 900px;
+    box-shadow: 10px 10px 5px 0px rgb(169, 132, 224);
+    margin-left: 600px;
+    margin-top: 100px;
+
+}
+
+.imageletrero {
+    position:absolute;  
+    width: 350px;
+    height: 30%;
+    margin-top: 5px;
+    margin-left: 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+
+  .image2{
+    position:absolute;  
+    width: 325px;
+    height: 375px;
+    margin-top: 175px;
+    margin-left: 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .image3{
+    position:absolute;  
+    width:500px;
+    height: 270px;
+    margin-top: 280px;
+    left: 1200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .image4{
+    position:absolute;  
+    position:absolute;  
+    width: 100px;
+    height: 100px;
+    top:450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .image5{
+    position:absolute;  
+    position:absolute;  
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .aboutme{
+    position: absolute;
+    top: 80px;
+    left: 350px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color:transparent;
+    font-size: 55px;
+    font-family: Arial black;
+    text-shadow: 9px 9px 0 #000000, 9px 9px 0 #000000, 40px 16px 20px rgba(206,89,55,0), 40px 16px 20px rgba(206,89,55,0);
+  }
+
+  .rectangulo{
+    position: absolute;
+    background-color: rgb(161, 119, 225);
+    width: 100px;
+    height: 100px;
+    left:650px;
+    top:310px;
+    transform: rotate(183deg) skew(-112deg);
+    -webkit-transform: rotate(183deg) skew(-112deg);
+    -moz-transform: rotate(183deg) skew(-112deg);
+    z-index: 1;
+  }
+  .rectangulo2{
+    position: absolute;
+    background-color: rgb(161, 119, 225);
+    width: 100px;
+    height: 100px;
+    left:1420px;
+    top:70px;
+    transform: skew(68deg);
+    -webkit-transform: skew(68deg);
+    -moz-transform: skew(68deg);
+    z-index: 1;
+  }
+
+  .titulo{
+    width: 300px;
+    text-shadow: 2px 2px 0 #ff9e77, 4px 4px 0 #ff9e77, 40px 16px 20px rgba(206,89,55,0), 40px 16px 20px rgba(206,89,55,0);
+    margin-left:150px;
+    font-size: 30px;
+    color:aliceblue
+  }

@@ -1,0 +1,44 @@
+.App {
+   text-align: center;
+   width: 100%;
+   position: relative;
+ }
+ 
+ .background-image {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+   background-size: cover;
+ }
+ 
+ .content-wrapper {
+   position: relative;
+   z-index: 1;
+   padding-top: 5px;
+ }
+ 
+ /* Estilos específicos para cada ruta */
+ .App[data-route="/"] .background-image {
+   background-image: url('rickelformu.jpg');
+ }
+ 
+ .App[data-route="/home"] .background-image {
+   background-image: url('rick101.jpg');
+ }
+ 
+ .App[data-route="/about"] .background-image {
+   background-image: url('rick101.jpg');
+ }
+ 
+ .App[data-route^="/detail/"] .background-image {
+    background-image: url('rick101.jpg');
+}
+
+.App[data-route^="/favorites"] .background-image {
+  background-image: url('rick101.jpg');
+}
+
+ 

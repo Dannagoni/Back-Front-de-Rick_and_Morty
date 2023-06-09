@@ -1,0 +1,21 @@
+.container{
+    background-color:#320d78;
+    box-shadow: 0 0 50px #00ffc9;
+    padding: 10px;
+    margin-bottom: 190px; 
+}
+
+.boton{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.barra{
+    width: 500px;
+    height: 25px;
+    border-radius: 15px; 
+}
+
+
+

@@ -1,0 +1,80 @@
+.formContainer {
+    position: relative;
+    width: 500px;
+    height: 320px;
+    margin: 300px auto 0;
+    background-color: #000;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgb(0, 255, 217);
+}
+
+
+.span{
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.form{
+    position: absolute;
+    position: absolute;
+    left: -30px;
+    right: -30px;
+    height: 150px;
+    padding: 30px;
+    background-color: #FFF;
+    color: #333;
+    border-radius: 15px;
+    margin-top: 15px;
+
+}
+
+.email{
+    display:block;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left:20px;
+}
+
+.password{
+    display:block;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.inputEmail{
+    border-radius: 15px;
+    width: 200px;
+    height: 20px;
+    margin-left: 30px;
+}
+
+.inputPassword{
+    border-radius: 15px;
+    width: 200px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.boton{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.errorEmail{
+    margin-top: 3px;
+    font-size: 10px;
+    color: rgb(176, 29, 29)
+}
+
+.errorPassword{
+    margin-top: 3px;
+    margin-left: 110px;
+    font-size: 10px;
+    color: rgb(176, 29, 29)
+}
+
+
+
