@@ -21,6 +21,7 @@ export default function Cards({characters, onClose}) {
       </div>
    );
 }
+//PRUEBA PARA LOS CHICOS
 
 //Las keys ayudan a React a identificar que ítems han cambiado, son agregados, o son eliminados.
 //La propiedad key es especial en React y se utiliza para ayudar a identificar de forma única cada elemento en una lista. 
